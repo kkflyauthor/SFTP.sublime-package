@@ -1,0 +1,12 @@
+1、sublime安装任何插件前都需要安装package Control.sublime-package，
+这个具体路径在安装目录下的Installed Packages文件夹内。
+2、channel_v3.json文件是为了解决如图1出现问题时使用，参
+考https://blog.csdn.net/zknxx/article/details/52685094，
+图2为配置信息，该json文件下载地址：
+https://raw.githubusercontent.com/HBLong/channel_v3_daily/master/channel_v3.json
+3、SFTP.sublime-package是一个sublime的SFTP插件，当安装package Control.sublime-package成
+功后即可下载，但是我这里却下载失败，通过sublime的View->Show Console查看得知原因为，channel_v3.json
+中下载SFTP.sublime-package的地址https://packagecontrol.io/files/3-win/SFTP.sublime-package无法
+访问，应该是packagecontrol.io这个网站被墙了。
+然后将我这里的SFTP.sublime-package放置在我的服务器中。地址为http://www.nhphp.com/SFTP.sublime-package,
+在channel_v3.json中替换掉https://packagecontrol.io/files/3-win/SFTP.sublime-package

@@ -1,0 +1,6 @@
+这里记录的是在解决问题时可能遇到的一些路径，
+
+D:\Sublime Text 3\Packages\SFTP.sublime-package
+http://nhphp.com/SFTP.sublime-package
+https://raw.githubusercontent.com/HBLong/channel_v3_daily/master/channel_v3.json
+https://packagecontrol.io/files/3-win/SFTP.sublime-package
